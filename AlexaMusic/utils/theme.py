@@ -13,17 +13,6 @@ as you want or you can collabe if you have new ideas.
 import random
 from AlexaMusic.utils.database import get_theme
 
-themes = [
-    "alexa1",
-    "alexa2",
-    "alexa3",
-    "alexa4",
-    "alexa5",
-    "alexa6",
-    "alexa7",
-    "alexa8",
-]
-
 
 async def check_theme(chat_id: int):
     _theme = await get_theme(chat_id, "theme")
